@@ -61,8 +61,8 @@ $$ LANGUAGE SQL;
 ```
 
 # Data Analysis
-Run this on your machine and notice how many titles are blank. Imagine what would happen to your query when `NULL` titles 
-are concatenated to bodies!
+Run this on your machine and notice how many titles are blank. Imagine how many articles would be ignored if `NULL` titles 
+are concatenated to article bodies!
 
 ```sql
 -- Record Analysis: record count, blank title, non-blank tite grouped by month
